@@ -1,0 +1,11 @@
+[
+    {
+        "id": "01100b24-76e5-4c00-9c4d-8006c7dd4dbd",
+        "title": "Manage Account Links",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "links"
+    }
+]

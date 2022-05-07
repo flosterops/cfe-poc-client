@@ -1,0 +1,70 @@
+variables:
+  REGISTRY_IMAGE: gcr.io/oneplatform-us-247012/cfe-poc-client
+
+stages:
+  - test
+  - build
+  - deploy
+
+test:unit:
+  image: node:latest
+  stage: test
+  cache:
+    key: "$CI_JOB_STAGE-$CI_COMMIT_REF_SLUG"
+    paths:
+      - node_modules/
+  script:
+    - yarn install
+    - yarn run lint
+#    - CI=true yarn run test
+
+build:no-push:
+  stage: build
+  only:
+    - branches
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  script:
+    - set -u
+    - mkdir -p /kaniko/.docker
+    - echo "$DOCKER_AUTH_CONFIG" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/docker/Dockerfile --no-push
+
+build:destination:
+  stage: build
+  only:
+    - tags
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  variables:
+    GOOGLE_APPLICATION_CREDENTIALS: /kaniko/config.json
+  script:
+    - set -u
+    - mkdir -p /kaniko/.docker
+    - echo "$DOCKER_AUTH_CONFIG" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/docker/Dockerfile --destination $REGISTRY_IMAGE:$CI_COMMIT_TAG --destination $REGISTRY_IMAGE:latest
+
+## Triggers pipeline in another project.
+## The token of the trigger should be stored in CI/CD secret variables
+## of this project as HELM_CI_TRIGGER_TOKEN
+## and its URL as HELM_CI_TRIGGER_URL.
+deploy:
+  stage: deploy
+  only:
+    - tags
+  image:
+    name: gcr.io/oneplatform-web-us-247110/curl:7.73.0
+    entrypoint: [""]
+  before_script:
+    - test -n "$HELM_CI_TRIGGER_TOKEN"
+    - test -n "$HELM_CI_TRIGGER_URL"
+    - curl --version
+  script:
+    - |
+      curl -X POST \
+        -F token=$HELM_CI_TRIGGER_TOKEN \
+        -F "ref=master" \
+        -F "variables[TAG]=$CI_COMMIT_TAG" \
+        $HELM_CI_TRIGGER_URL

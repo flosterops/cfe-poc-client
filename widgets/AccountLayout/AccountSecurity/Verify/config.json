@@ -1,0 +1,6 @@
+{
+    "title": "Verify your email address",
+    "submit": "send me a verification email",
+    "success": "A verification email has been sent to you",
+    "verifiedMessage": "Your email address has been verified"
+}

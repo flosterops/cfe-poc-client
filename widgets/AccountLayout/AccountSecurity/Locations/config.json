@@ -1,0 +1,6 @@
+{
+    "title": "Clear Trusted Locations",
+    "subTitle": "If you've signed in from a public location and chosen the \"Remember my login\" option, or if you have any concerns about the security of the locations you've logged in from, you can clear the list of trusted locations.",
+    "secondSubTitle": "Clearing your list of trusted locations will mean that you will be prompted for an authentication code each time you log in to the Glyph website or the Glyph client.",
+    "submit": "clear locations"
+}

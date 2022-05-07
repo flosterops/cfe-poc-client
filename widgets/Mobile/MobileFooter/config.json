@@ -1,0 +1,29 @@
+{
+    "social": ["/img/social/twitch.png", "/img/social/twitter.png", "/img/social/facebook.png"],
+    "links": [
+        {
+            "href": "https://www.google.com/",
+            "text": "ABOUT US"
+        },
+        {
+            "href": "https://www.google.com/",
+            "text": "CONTACT"
+        },
+        {
+            "href": "https://www.google.com/",
+            "text": "PRESS"
+        },
+        {
+            "href": "https://www.google.com/",
+            "text": "Terms of Service"
+        },
+        {
+            "href": "https://www.google.com/",
+            "text": "Privacy Policy"
+        },
+        {
+            "href": "https://www.google.com/",
+            "text": "Cookies Settings"
+        }
+    ]
+}

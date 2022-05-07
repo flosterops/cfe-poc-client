@@ -1,0 +1,38 @@
+{
+    "subTitle": "For certain actions, such as making a purchase or applying a code, we ask that you further secure your account by providing secret questions and answers. Your Secret Questions will help us to identify you if you have lost your account information. You will be asked to provide the answers to your selected secret questions when attempting to make certain changes to your account, such as changing your password.",
+    "hasQuestionsMessage": "Secret questions and answers have been Added and cannot be edited.",
+    "fields": [
+        {
+            "id": "bc662743-aa32-41a8-a75d-156d8b494018",
+            "type": "select",
+            "label": "Secret Question #1",
+            "name": "firstQuestion",
+            "margin": "0 40px 30px 0",
+            "placeholder": ""
+        },
+        {
+            "id": "a9296469-0ec8-4576-850d-386279ea7609",
+            "type": "select",
+            "name": "secondQuestion",
+            "label": "Secret Question #2",
+            "margin": "0 0 30px 40px",
+            "placeholder": ""
+        },
+        {
+            "id": "d88ad42a-a0a3-4f0c-9580-9498d1fec5eb",
+            "type": "text",
+            "name": "firstAnswer",
+            "label": "Your answer to question #1",
+            "margin": "0 40px 30px 0",
+            "placeholder": ""
+        },
+        {
+            "id": "d1e84bcb-95b3-4929-b09f-c5a12555446b",
+            "type": "text",
+            "name": "secondAnswer",
+            "label": "Your answer to question #2",
+            "margin": "0 0 30px 40px",
+            "placeholder": ""
+        }
+    ]
+}

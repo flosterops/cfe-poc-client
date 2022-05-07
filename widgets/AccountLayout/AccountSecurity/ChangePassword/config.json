@@ -1,0 +1,22 @@
+{
+    "title": "Change your password",
+    "subTitle": "Gamigo US places great importance on the security of your account. We ask that you increase the security of your Glyph account by entering the Security Questions.",
+    "successChanged": "Your password has been successfully changed",
+    "fields": [
+        {
+            "id": "8b250adf-fed0-4553-b478-bcff7c2a278f",
+            "label": "Current Password",
+            "name": "password"
+        },
+        {
+            "id": "a21e91ec-b114-47a6-a56e-f6ef03aa0367",
+            "label": "New Password",
+            "name": "newPassword"
+        },
+        {
+            "id": "4f31d233-f7a7-4c7e-a5ae-26df7ef531d1",
+            "label": "Confirm New Password",
+            "name": "confirmPassword"
+        }
+    ]
+}

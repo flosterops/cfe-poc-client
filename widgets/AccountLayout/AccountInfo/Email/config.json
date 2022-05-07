@@ -1,0 +1,42 @@
+[
+    {
+        "id": "email",
+        "label": "New email address",
+        "title": null,
+        "size": "full",
+        "padding": "0 40px 0 0",
+        "type": "email"
+    },
+    {
+        "id": "confirmEmail",
+        "label": "Confirm your new email address",
+        "title": null,
+        "size": "full",
+        "padding": "0 0 0 40px",
+        "type": "email"
+    },
+    {
+        "id": "firstSecret",
+        "label": "What is your favorite game of all time?",
+        "title": "Secret Question #1",
+        "size": "full",
+        "padding": "0 40px 0 0",
+        "type": "text"
+    },
+    {
+        "id": "secondSecret",
+        "label": "What is your favorite game of all time?",
+        "title": "Secret Question #2",
+        "size": "full",
+        "padding": "0 0 0 40px",
+        "type": "text"
+    },
+    {
+        "id": "password",
+        "label": "Enter password",
+        "title": null,
+        "size": "full",
+        "padding": "10px 40px 0 0",
+        "type": "password"
+    }
+]

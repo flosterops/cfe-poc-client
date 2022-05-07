@@ -1,0 +1,26 @@
+{
+    "title": "Your Glyph Tag is a single identity to share with your friends, forums, and games. Once created, your Glyph Tag cannot be changed, so make it count!",
+    "glyphTagMessage": "Your Glyph Tag cannot be changed once set.",
+    "titleWithTag": "glyph tag",
+    "titleSetTag": "set a glyph tag",
+    "rules": [
+        {
+            "rule": "must be between 3-20 characters long"
+        },
+        {
+            "rule": "can only contain letters A thru Z, a thru z"
+        },
+        {
+            "rule": "is not case sensitive"
+        },
+        {
+            "rule": "cannot contain spaces or symbols"
+        },
+        {
+            "rule": "cannot contain accented characters. e.g., é, ñ"
+        },
+        {
+            "rule": "numbers are allowed, but not as the first character of your Glyph Tag."
+        }
+    ]
+}

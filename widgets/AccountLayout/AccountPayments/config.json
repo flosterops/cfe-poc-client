@@ -1,0 +1,20 @@
+[
+    {
+        "id": "d7faa8f0-dd29-4acc-a7a4-083ba72ef02f",
+        "title": "Your payment methods",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "payments"
+    },
+    {
+        "id": "8b18b0f0-1d9c-4de6-b1a3-83e9d2b3ce02",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "newPayments"
+    }
+]

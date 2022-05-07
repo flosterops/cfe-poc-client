@@ -1,0 +1,23 @@
+[
+    {
+        "id": "4174667b-27c2-4df6-b3ef-9ff25e85e7d7",
+        "via": "Ayden",
+        "card": "mastercard: ****-****-****-8546 (05/2021)",
+        "type": "mastercard",
+        "default": true
+    },
+    {
+        "id": "e28061e8-8c41-4b3f-bf32-0fcd6b730271",
+        "via": "",
+        "card": "paypal: a*********@gmail.com",
+        "type": "paypal",
+        "default": false
+    },
+    {
+        "id": "7bd659cc-9d07-47c9-91ba-3be395a05e04",
+        "via": "Else",
+        "card": "mastercard: ****-****-****-8546 (05/2021)",
+        "type": "mastercard",
+        "default": false
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "80cfda8d-8ef9-4d6b-ad5b-361646d6ca38",
+        "title": "apply code",
+        "link": null,
+        "width": "60%",
+        "padding": "0 20px 20px 0",
+        "height": "200px",
+        "component": "code"
+    },
+    {
+        "id": "07c5fb00-5676-41c4-a63a-554f6f460cb1",
+        "title": "account sercurity",
+        "link": {
+            "href": "code",
+            "text": "See security"
+        },
+        "width": "40%",
+        "padding": "0 0 20px 0",
+        "height": "200px",
+        "component": "security"
+    },
+    {
+        "id": "1ac9e944-5329-472b-8063-acaa72de4cd2",
+        "title": "your information",
+        "link": {
+            "href": "info",
+            "text": "Account info"
+        },
+        "width": "60%",
+        "padding": "0 20px 20px 0",
+        "height": "250px",
+        "component": "info"
+    },
+    {
+        "id": "aeb33921-4f04-4e0c-8100-3fa52e0af3e2",
+        "title": "credit balance",
+        "link": null,
+        "width": "40%",
+        "padding": "0 0 20px 0",
+        "height": "250px",
+        "component": "balance"
+    },
+    {
+        "id": "dbd7fed1-3d04-48c5-939b-93adcc06962b",
+        "title": "recent transactions",
+        "link": {
+            "href": "transactions",
+            "text": "See transaction history"
+        },
+        "width": "1000%",
+        "padding": "0 0 20px 0",
+        "height": "350px",
+        "component": "transaction"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "a74820b4-904c-4e74-8eb7-b0f338b9a80e",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "password"
+    },
+    {
+        "id": "f372730e-3e77-4bff-a97a-f696a57d3ff9",
+        "title": "add secret questions and answers",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "questions"
+    },
+    {
+        "id": "4882543e-7b07-48b4-b4a8-e1dcc8649d3a",
+        "title": "add the Glyph Mobile Authenticator",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "mobile"
+    },
+    {
+        "id": "8d921e34-fe81-435b-b932-f005a8040615",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "verify"
+    },
+    {
+        "id": "6d50453c-f952-483f-a79c-7e75f2bce1c7",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "locations"
+    }
+]

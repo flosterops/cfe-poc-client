@@ -1,0 +1,20 @@
+[
+    {
+        "id": "853cc262-a5ad-4310-8006-b028e912749b",
+        "title": "apply code",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "250px",
+        "component": "code"
+    },
+    {
+        "id": "9edf6209-e067-431a-9ca7-a840b7a056bd",
+        "title": "previous codes applied to this account",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "history"
+    }
+]

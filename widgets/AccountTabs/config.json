@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1bb84938-f76d-47bc-af63-6537a5c2a04f",
+        "text": "dashboard",
+        "tabId": "dashboard"
+    },
+    {
+        "id": "ed3a6a1a-55f4-47d7-83ac-165a1e042056",
+        "text": "account info",
+        "tabId": "info"
+    },
+    {
+        "id": "50e0dbe3-da1b-4df5-b12f-49fc8edbdcd1",
+        "text": "apply code",
+        "tabId": "code"
+    },
+    {
+        "id": "97527876-00ee-45f7-8b73-f94b3ddfb821",
+        "text": "payments",
+        "tabId": "payments"
+    },
+    {
+        "id": "99d9c2c5-6ade-44c2-b76f-09e69239ecb1",
+        "text": "transaction history",
+        "tabId": "transactions"
+    },
+    {
+        "id": "ff3dc988-8638-4968-a628-4020ef4e7691",
+        "text": "security & password",
+        "tabId": "security"
+    },
+    {
+        "id": "f0056a23-7b28-4030-929a-f2e53d039cbb",
+        "text": "account linking",
+        "tabId": "linking"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": "dc9ed520-02f3-4d19-b64f-5e6b1e3987f1",
+        "title": "Transaction History",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "history"
+    },
+    {
+        "id": "2db6c43e-1232-4f94-ac2d-7c0a60d9e3ba",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "order"
+    }
+]

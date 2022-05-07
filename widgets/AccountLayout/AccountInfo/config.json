@@ -1,0 +1,29 @@
+[
+    {
+        "id": "913ae6d0-cf3e-425d-b6db-770f0317daf1",
+        "title": "email",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "email"
+    },
+    {
+        "id": "be7657f7-acd5-41b0-b85b-c85213e85433",
+        "title": "",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "tag"
+    },
+    {
+        "id": "d261ebce-bb0c-4c1a-90df-6211a5bc97a3",
+        "title": "get special offers and news for your favorite games",
+        "link": null,
+        "width": "100%",
+        "padding": "0 0 20px 0",
+        "height": "auto",
+        "component": "offers"
+    }
+]

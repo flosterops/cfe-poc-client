@@ -1,0 +1,51 @@
+{
+    "title": "Want to be the first to know about upcoming betas, new content, sales, and more? Select the games and services you would like to receive messages and special offers for below.",
+    "subTitle": "You can update these preferences at any time.",
+    "fields": [
+        {
+            "id": "glyph",
+            "label": "Glyph",
+            "status": false
+        },
+        {
+            "id": "defiance",
+            "label": "Defiance",
+            "status": false
+        },
+        {
+            "id": "trove",
+            "label": "Trove",
+            "status": false
+        },
+        {
+            "id": "archeage",
+            "label": "ArcheAge",
+            "status": false
+        },
+        {
+            "id": "defiance2050",
+            "label": "Defiance 2050 Consoles",
+            "status": false
+        },
+        {
+            "id": "trovePS4",
+            "label": "Trove PS4",
+            "status": false
+        },
+        {
+            "id": "archeageUnchained",
+            "label": "ArcheAge Unchained",
+            "status": false
+        },
+        {
+            "id": "rift",
+            "label": "Rift",
+            "status": false
+        },
+        {
+            "id": "troveXbox",
+            "label": "Trove Xbox One",
+            "status": false
+        }
+    ]
+}
